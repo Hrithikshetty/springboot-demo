@@ -30,6 +30,9 @@ public class studentServiceImpl implements StudentService {
         s2.setGender("Female");
         s2.setGrade("8");
 
+        students.add(s1);
+        students.add(s2);
+
         return students;
     }
 }
